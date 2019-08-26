@@ -22,7 +22,15 @@ public class Contact {
         this.emailAddress = emailAddress;
     }
     
+    public String getFirstName(){
+        return firstName;
+    }
+    
+    public String getLastName(){
+        return lastName;
+    }
+    
     public String toString(){
-        return firstName + " " + lastName  " " + phoneNumber + " " + emailAddress;
+        return firstName + " " + lastName + " " + phoneNumber + " " + emailAddress;
     }
 }
